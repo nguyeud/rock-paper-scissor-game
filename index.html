@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header">
+      ROCK PAPER SCISSORS
+    </div>
+    <div class="content">
+      <div class="result">
+        <div class="title" id="result-title">
+          Choose your Weapon
+        </div>
+        <div class="body" id="result-body">
+          First to score five (5) points wins the game!
+        </div>
+      </div>
+      <div class="choice">
+        <div class="player">
+          <img class="image-player" src="./images/human.png">
+          <div class="text">
+            <div class="player-text"><strong>Player:</strong></div>
+            <div id="result-player">0</div>
+          </div>
+        </div>
+        <div class="computer">
+          <img class="image-computer" src="./images/computer.png">
+          <div class="text">
+            <div class="player-text"><strong>Computer:</strong></div>
+            <div id="result-computer">0</div>
+          </div>
+        </div>
+      </div>
+      <div class="player-options">
+        <button id="rock">
+          <img class="rock" src="./images/rock.png">
+        </button>
+        <button id="paper">
+          <img class="paper" src="./images/paper.png">
+        </button>
+        <button id="scissor">
+          <img class="scissor" src="./images/scissor.png">
+        </button>
+      </div>
+      <div class="rounds">
+        <div class="text">
+          <div class="player-text"><strong>Round:</strong></div>
+          <div id="round-num">0</div>
+        </div>
+      </div>
+      <div class="winner">
+        <div class="text" id="text-winner">
+          The winner is...
+        </div>
+      </div>
+      <div class="reset">
+        <button id="reset">Play Again</button>
+      </div>
+    </div>
+    <div class="footer">
+      Made with ❤️ nguyeud
+    </div>
+  </body>
+  <script src="game.js"></script>
+  <!-- CREDITS -->
+  <!-- Color Palette -->
+  <!-- https://coolors.co/palette/ffd6ff-e7c6ff-c8b6ff-b8c0ff-bbd0ff -->
+  <!-- Images -->
+  <!-- <a href="https://www.flaticon.com/free-icons/cloud-computing" title="cloud computing icons">Cloud computing icons created by Freepik - Flaticon</a> -->
+  <!-- <a href="https://www.flaticon.com/free-icons/person" title="person icons">Person icons created by DinosoftLabs - Flaticon</a> -->
+  <!-- <a href="https://www.vecteezy.com/free-vector/cartoon">Cartoon Vectors by Vecteezy</a> -->
+</html>

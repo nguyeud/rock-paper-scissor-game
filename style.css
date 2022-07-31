@@ -1,0 +1,168 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* BODY */
+body {
+    /* alignment */
+    margin: 0;
+    padding: 0;
+    /* style */
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* HEADER */
+.header {
+    /* style */
+    font-family: "Bebas Neue", Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 72px;
+    /* alignment */
+    padding: 24px;
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTENT */
+.content {
+    /* Flexbox */
+    flex: 1;
+}
+
+/* FOOTER */
+.footer {
+    /* styles */
+    background: #efefef;
+    font-size: 14px;
+    /* alignment */
+    padding: 12px;
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* RESULT: RESULT OF ROUND */
+.result {
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* alignment */
+    padding-bottom: 24px;
+}
+.title {
+    /* style */
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+.body {
+    /* style */
+    color: black;
+    font-size: 18px;
+}
+
+/* CHOICE: PLAYER-COMPUTER */
+.choice {
+    /* alignment */
+    padding-bottom: 72px;
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+}
+.player, .computer {
+    /* style */
+    color: black;
+    font-size: 18px;
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+}
+.player-text {
+    /* alignment */
+    padding-right: 8px;
+}
+
+/* PLAYER OPTIONS: ROCK PAPER SCISSORS */
+.player-options {
+    /* alignment */
+    padding-bottom: 24px;
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+}
+#rock, #paper, #scissor {
+    /* style */
+    background-color: transparent;
+    border: none;
+}
+
+/* ROUND NUMBER */
+.rounds {
+    /* alignment */
+    padding-bottom: 72px;
+}
+
+/* WINNER */
+.winner {
+    /* style */
+    visibility: hidden;
+
+    /* alignment */
+    padding-bottom: 48px;
+}
+.winner .text {
+    /* style */
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* RESET BUTTON */
+.reset {
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+
+    /* alignment */
+    padding-bottom: 48px;
+}
+#reset {
+    /* alignment */
+    padding: 8px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+    /* style */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    visibility: hidden;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+/* IMAGES */
+img {
+    /* size */
+    height: 15vh;
+}
+
+/* BUTTON TRANSITION */
+button {
+    transition: transform .1s ease-in-out;
+}
+button:hover {
+    transform: scale(1.05)
+}
