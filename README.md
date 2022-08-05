@@ -1,3 +1,5 @@
+From [The Odin Project](https://www.theodinproject.com/).
+
 # Rock Paper Scissor Game
 First to five rounds wins in a game of rock, paper, scissors against a computer.
 
